@@ -1,0 +1,33 @@
+# PC_SECIO_App .gitignore
+
+# Local database (contains your personal network data — never commit this)
+pc_secio.db
+*.db
+
+# PyInstaller build output
+build/
+dist/
+*.spec.bak
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
